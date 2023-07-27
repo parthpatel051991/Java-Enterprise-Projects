@@ -1,0 +1,18 @@
+
+`
+java:S5411-"(Use a primitive boolean expression here.(ıü‡Ìûÿÿÿÿ8¤Ï‰‹—1HÂ!RMINORZ
+CODE_SMELL
+z
+java:S22591"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚¨Áıÿÿÿÿ8¤Ï‰‹—1HÅ!RMAJORZBUG
+p	java:S106$"9Replace this use of System.out or System.err by a logger.(ûõÄ¶ùÿÿÿÿ8¤Ï‰‹—1HÒ!RMAJORZ
+CODE_SMELL
+k	java:S106%"9Replace this use of System.out or System.err by a logger.(¿°â¼8¤Ï‰‹—1HÓ!RMAJORZ
+CODE_SMELL
+p	java:S106&"9Replace this use of System.out or System.err by a logger.(—š†ÿüÿÿÿÿ8¤Ï‰‹—1HÔ!RMAJORZ
+CODE_SMELL
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(à©µµ8¤Ï‰‹—1HÕ!RMAJORZ
+CODE_SMELL
+k	java:S106/"9Replace this use of System.out or System.err by a logger.(Ç¿Ü8¤Ï‰‹—1HÖ!RMAJORZ
+CODE_SMELL
+p	java:S1062"9Replace this use of System.out or System.err by a logger.(î‰€şÿÿÿÿ8¤Ï‰‹—1H×!RMAJORZ
+CODE_SMELL

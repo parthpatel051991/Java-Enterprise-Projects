@@ -1,0 +1,42 @@
+ 
+ Constructor
+ => Whenever we are creating an object some piece of the code will be executed automatically to
+    perform initialization of an object this piece of code is nothing but constructor.
+ => Main objective of constructor is nothing but initialisation of Object.
+ 
+Rules for writing a constructor
+==============================
+1. Name of the constructor and name of the class must be same.
+2. Return type concept not applicable for constructor, even if we provide it won't result
+   in compile time error, if we do so then java language will treat this as "normal method".
+     eg:: class Test{
+		void Test(){
+			System.out.println("Hello");// It is not a constructor,it is a method.
+		}
+          }
+3. It is not a good practise to take the method name same as that of the classname.
+4. The modifiers applicable for constructors are private,public,protected,default.
+5. The other modifiers if we use, it would result in compile time error. 
+
+Default constructor
+===================
+ 1. For every java class constructor concept is applicable.
+ 2. If we don't write any constructor, then compiler will generate default constructor.
+ 3. If we write atleast one constructor then compiler won't generate any default constructor, so
+    we say every java class will have compiler generated default constructor or programmer written
+    constructor but not both simultaneously.
+ 
+
+Prototype of default constructor
+================================
+  1. It is always no argument constructor.
+  2. The access modifier of the default constructor is same as class modifier.
+     [applicable for public and default]
+  3. Default constructor contains one line, super(), It is a call to super class constructor.
+  
+  
+  
+super() vs this()
+=================
+  1. The first line inside the constructor can be super()/ this().
+  2. If we are not writing anything then compiler will generate super();

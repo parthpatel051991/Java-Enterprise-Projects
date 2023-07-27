@@ -1,0 +1,35 @@
+package in.ineuron;
+
+import java.util.Scanner;
+
+import javax.persistence.criteria.Order;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import in.ineuron.model.User;
+import in.ineuron.service.OrderServiceMgmtImpl;
+import in.ineuron.service.UserServiceMgmtImpl;
+
+@SpringBootApplication
+public class SpringBoot22DataJpaMySqlApplication {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringBoot22DataJpaMySqlApplication.class, args);
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the name::");
+		String name = sc.next();
+		System.out.print("Enter the address::");
+		String address = sc.next();
+		UserServiceMgmtImpl service = context.getBean(UserServiceMgmtImpl.class);
+		OrderServiceMgmtImpl order_service = context.getBean(OrderServiceMgmtImpl.class);
+
+		User user = new User(name, address);
+		String result = service.registerUser(user);
+		System.out.println(result);
+	}
+
+}

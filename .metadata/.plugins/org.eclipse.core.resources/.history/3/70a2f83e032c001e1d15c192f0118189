@@ -1,0 +1,40 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.Product;
+import in.ineuron.repository.IProductRepository;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+
+	@Autowired
+	private IProductRepository repo;
+
+	@Override
+	@CircuitBreaker(name = "productByID",fallbackMethod = "fallbackGetProductList")
+	public Product getProductById(Integer id) {
+	
+		
+		return repo.findById(id).get();
+	}
+	
+	public ResponseEntity<Product> fallbackGetProductList() {
+		
+		
+		
+		return new ResponseEntity<Product>(Product.builder().pid(0).name("dummy product. Fallback metho executed").build(),HttpStatus.BAD_REQUEST);
+	}
+
+	
+	
+	
+	
+	
+
+
+}

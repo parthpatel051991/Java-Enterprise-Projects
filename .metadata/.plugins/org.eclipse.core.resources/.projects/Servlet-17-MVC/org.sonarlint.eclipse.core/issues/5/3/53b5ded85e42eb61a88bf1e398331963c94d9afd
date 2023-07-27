@@ -1,0 +1,18 @@
+
+—
+java:S1989-"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´‡™8­áúŞ–1H¾RMINORZVULNERABILITY
+œ
+java:S1989'"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ŠÓğ¿øÿÿÿÿ8­ùõŞ–1HµRMINORZVULNERABILITY
+—
+java:S1989*"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´‡™8­ùõŞ–1H¶RMINORZVULNERABILITY
+f
+java:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿HíRMAJORZ
+CODE_SMELL
+‰
+java:S1450"VRemove the "service" field and declare it as a local variable in the relevant methods.(Œ¥ú«8Â¡ŸŞ–1HáRMINORZ
+CODE_SMELL
+‚
+java:S1192&"GDefine a constant instead of duplicating this literal "result" 3 times.(ïŒ«úÿÿÿÿ8­áúŞ–1HºRCRITICALZ
+CODE_SMELL
+„
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Œ¥ú«8ÙÇ™Ş–1HĞRMAJORZBUG

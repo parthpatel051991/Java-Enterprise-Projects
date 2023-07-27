@@ -1,0 +1,38 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Direction;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.Product;
+import in.ineuron.repository.IProductRepository;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+
+	@Autowired
+	private IProductRepository repo;
+
+	@Override
+	public Iterable<Product> fetchDetails(boolean asc, String... properties) {
+
+		Sort sort = Sort.by(asc ? Direction.ASC : Direction.DESC, properties);
+		Iterable<Product> listEntities = repo.findAll(sort);
+
+		return listEntities;
+	}
+
+	@Override
+	public Iterable<Product> fetchDetailsByPageNo(int pageNo, int pageSize, boolean asc, String... properties) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void fetchDetailsByPagination(int pageSize) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

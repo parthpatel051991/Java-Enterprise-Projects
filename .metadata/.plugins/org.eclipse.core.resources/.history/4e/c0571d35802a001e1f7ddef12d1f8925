@@ -1,0 +1,27 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.ineuron.model.User;
+import in.ineuron.repo.IUserRepository;
+
+public class UserServiceImpl implements IUserService {
+
+	@Autowired
+	private IUserRepository repo;
+
+	@Override
+	public String registerUser(User user) {
+		
+		
+		
+		
+		return null;
+	}
+
+	@Override
+	public Boolean authenticateUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

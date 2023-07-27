@@ -1,0 +1,13 @@
+
+œ
+java:S1989%"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÜÕˆêøÿÿÿÿ8Ÿ¹¸ã–1HæRMINORZVULNERABILITY
+‰
+java:S1450"VRemove the "service" field and declare it as a local variable in the relevant methods.(Œ¥ú«8þ¤Õã–1HöRMINORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘è¬†ýÿÿÿÿHßRMINORZ
+CODE_SMELL
+„
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Œ¥ú«8Ÿ¹¸ã–1HçRMAJORZBUG
+k
+java:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHàRMAJORZ
+CODE_SMELL

@@ -1,0 +1,36 @@
+package in.ineuron.main;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import in.ineuron.Model.Employee;
+import in.ineuron.util.HibernateUtil;
+
+public class ReadApp {
+
+	public static void main(String[] args) {
+	
+		Session session = null;
+		boolean flag =false;
+		
+		try {
+			session = HibernateUtil.getSession();
+
+			if (session != null) {
+				
+				Employee employee = session.get(Employee.class, 15);
+				System.out.println(employee);
+			}
+		} catch (HibernateException e) {
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+			
+			HibernateUtil.closeSession(session);
+			
+		}
+	}
+
+}

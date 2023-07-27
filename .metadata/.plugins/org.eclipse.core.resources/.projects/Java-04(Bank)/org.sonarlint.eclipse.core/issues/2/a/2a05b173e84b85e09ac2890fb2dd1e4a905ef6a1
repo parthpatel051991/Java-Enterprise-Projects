@@ -1,0 +1,50 @@
+
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(ãÛÉ8§âƒ¥’1HÀRMAJORZ
+CODE_SMELL
+p	java:S106("9Replace this use of System.out or System.err by a logger.(í¹Ä’ıÿÿÿÿ8§âƒ¥’1H½RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¦ü¶”ûÿÿÿÿ8§âƒ¥’1HÈRMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(ç÷®¾ùÿÿÿÿ8²±½¤’1HxRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¦©¤„ıÿÿÿÿ8§âƒ¥’1H¼RMAJORZ
+CODE_SMELL
+k	java:S106 "9Replace this use of System.out or System.err by a logger.(™ŸÚ•8§âƒ¥’1H¿RMAJORZ
+CODE_SMELL
+k	java:S1067"9Replace this use of System.out or System.err by a logger.(´êéñ8³¸¥’1HÊRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÊ‰ê8²±½¤’1HwRMAJORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(ùï•¡úÿÿÿÿ8§âƒ¥’1HÂRMAJORZ
+CODE_SMELL
+[
+java:S5411"(Use a primitive boolean expression here.(¾İ”8§âƒ¥’1H´RMINORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(ÑìµŸ8Íğ—¥’1H×RMAJORZ
+CODE_SMELL
+p	java:S1064"9Replace this use of System.out or System.err by a logger.(şÊó³üÿÿÿÿ8¿¶™¥’1HÛRMAJORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄìÎıÿÿÿÿHnRMINORZ
+CODE_SMELL
+p	java:S106?"9Replace this use of System.out or System.err by a logger.(ÊôÍíşÿÿÿÿ8ó¹¡¥’1HæRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªØüÚşÿÿÿÿ8§âƒ¥’1HÃRMAJORZ
+CODE_SMELL
+k	java:S106%"9Replace this use of System.out or System.err by a logger.(™¬Ç•8§âƒ¥’1H¾RMAJORZ
+CODE_SMELL
+p	java:S106""9Replace this use of System.out or System.err by a logger.(å…Âèùÿÿÿÿ8§âƒ¥’1HÁRMAJORZ
+CODE_SMELL
+p	java:S106$"9Replace this use of System.out or System.err by a logger.(ºê¤×úÿÿÿÿ8‡È–¥’1HÓRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ùªõè8ØôÇ¤’1H‹RMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(·Êşùûÿÿÿÿ8²±½¤’1HvRMAJORZ
+CODE_SMELL
+p	java:S106-"9Replace this use of System.out or System.err by a logger.(Ì¯ò›üÿÿÿÿ8á‘¥’1HÎRMAJORZ
+CODE_SMELL
+k	java:S106<"9Replace this use of System.out or System.err by a logger.(êÜªº8û¨ ¥’1HâRMAJORZ
+CODE_SMELL
+p	java:S106&"9Replace this use of System.out or System.err by a logger.(¿³¥şÿÿÿÿ8á‘¥’1HÏRMAJORZ
+CODE_SMELL
+p	java:S106/"9Replace this use of System.out or System.err by a logger.(»ğª­ÿÿÿÿÿ8§âƒ¥’1H»RMAJORZ
+CODE_SMELL

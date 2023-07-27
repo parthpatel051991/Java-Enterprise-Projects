@@ -1,0 +1,48 @@
+package in.ineuron.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import in.ineuron.model.User;
+import in.ineuron.service.IUserService;
+
+@Controller
+public class LoginController {
+
+	@Autowired
+	private IUserService service;
+	
+	@GetMapping(value = "/")
+	public String showHome() {
+		return "login";
+	}
+	
+	@PostMapping("/login/")
+	public String checkAuthentication(@RequestParam String email,@PathVariable String password) {
+		User user = new User();
+		user.setEmail(email);
+		user.setPassword(password);
+		
+		HashMap<String, Object> model = new HashMap<>();
+		
+		boolean result = service.authenticateUser(user);
+		System.out.println(result);
+		if (result) {
+			
+			model.put("msg","login is successfull" );
+			return "first";
+		}else {
+			
+			model.put("msg","login is failed" );
+			return "login";
+		}
+		
+	}
+}

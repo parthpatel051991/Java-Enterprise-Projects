@@ -1,0 +1,24 @@
+
+_Web:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8ÿıÜ–1H²RMAJORZBUG
+mWeb:InternationalizationCheck")Define this label in the resource bundle.(Ïè•×ıÿÿÿÿ8“¹úÚ–1HóRMAJORZBUG
+„Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(¨¹Áö8“¹úÚ–1HôRMAJORZBUG
+[	Web:S1827$")Remove this deprecated "align" attribute.(òå„ë8ÿóñÚ–1HïRMAJORZ
+CODE_SMELL
+UWeb:InlineStyleCheck"Use CSS classes instead.(µÍİ8”›¯ä–1HîRMAJORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.HçRBLOCKERZ
+CODE_SMELL
+‰Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(«æÑÎşÿÿÿÿ8“¹úÚ–1HöRMAJORZBUG
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(¨á¥²8ƒ©Ü–1H©RMINORZ
+CODE_SMELL
+[Web:WhiteSpaceAroundCheck"Add a space at column 21.(Ô¬¦8ƒ©Ü–1HªRMINORZ
+CODE_SMELL
+[	Web:S1827")Remove this deprecated "align" attribute.(òå„ë8—©’Û–1H÷RMAJORZ
+CODE_SMELL
+U	Web:S5256"%Add "<th>" headers to this "<table>".(¿‰˜ÿÿÿÿÿ8“¹úÚ–1HòRMAJORZBUG
+cWeb:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿ8“¹úÚ–1HñRMINORZBUG
+\Web:NonConsecutiveHeadingCheck&"Do not skip level H3.(ş™àÛ8—©’Û–1HùRMINORZ
+CODE_SMELL
+hWeb:InternationalizationCheck")Define this label in the resource bundle.(ˆ³˜©8“¹úÚ–1HõRMAJORZBUG
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHéRMAJORZBUG
+mWeb:InternationalizationCheck)")Define this label in the resource bundle.(ËÓƒœúÿÿÿÿ8êè¯Û–1HÿRMAJORZBUG

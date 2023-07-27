@@ -1,0 +1,20 @@
+
+k	java:S1064"9Replace this use of System.out or System.err by a logger.(“İÉê8ô¬á†•1Hü(RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ô¬á†•1Hı(RMAJORZ
+CODE_SMELL
+k	java:S1066"9Replace this use of System.out or System.err by a logger.(”¿İ‰8Î’„‡•1Hş(RMAJORZ
+CODE_SMELL
+e
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ùä†•1Hÿ(RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(›±®Ÿ8ô¬á†•1H)RMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(ÿ–óÿÿÿÿÿ8ô¬á†•1H‚)RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(²ƒìé8ô¬á†•1Hƒ)RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(·‚˜8ô¬á†•1H„)RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(³ë…¨8ô¬á†•1H…)RMAJORZ
+CODE_SMELL

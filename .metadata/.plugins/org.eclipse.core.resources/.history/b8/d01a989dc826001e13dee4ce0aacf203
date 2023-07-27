@@ -1,0 +1,33 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.User;
+import in.ineuron.repo.IUserRepository;
+
+@Service("service")
+public class UserServiceMgmtImpl implements IUserServiceMgmt {
+
+	@Autowired
+	private IUserRepository repo;
+	
+	
+	@Override
+	public String registerUser(User user) {
+	
+		User registredUser=null;
+		
+		try {
+			if (user != null) {
+				registredUser = repo.save(user);
+			} 
+		} catch (Exception e) {
+			String erroMessege = e.getMessage();
+		}
+		
+		
+		return (registredUser!=null)? "User registred succesfully with id number:: "+registredUser.getUserId():"User registration is failed";
+	}
+
+}

@@ -1,0 +1,8 @@
+package in.ineuron.service;
+
+import in.ineuron.model.User;
+
+public interface IOrderServiceMgmt {
+
+	public String registerUser(User user);
+}

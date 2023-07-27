@@ -1,0 +1,16 @@
+
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MH’RMAJORZ
+CODE_SMELL
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(¨á¥²8Ÿ§ÙÔ–1H“RMINORZ
+CODE_SMELL
+TWeb:WhiteSpaceAroundCheck"Add a space at column 21.(Ô¬¦HRMINORZ
+CODE_SMELL
+hWeb:InternationalizationCheck")Define this label in the resource bundle.(…‰œÿ8Ÿ§ÙÔ–1H˜RMAJORZBUG
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH‘RMAJORZBUG
+QWeb:HeaderCheck"&Add or update the header of this file.HRBLOCKERZ
+CODE_SMELL
+cWeb:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿ8Ÿ§ÙÔ–1H”RMINORZBUG
+U	Web:S5256"%Add "<th>" headers to this "<table>".(¿‰˜ÿÿÿÿÿ8Ÿ§ÙÔ–1H•RMAJORZBUG
+‰Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(î³ŒÕüÿÿÿÿ8Ÿ§ÙÔ–1H™RMAJORZBUG
+„Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(¨¹Áö8Ÿ§ÙÔ–1H—RMAJORZBUG
+hWeb:InternationalizationCheck")Define this label in the resource bundle.(ÈíÊÌ8Ÿ§ÙÔ–1H–RMAJORZBUG

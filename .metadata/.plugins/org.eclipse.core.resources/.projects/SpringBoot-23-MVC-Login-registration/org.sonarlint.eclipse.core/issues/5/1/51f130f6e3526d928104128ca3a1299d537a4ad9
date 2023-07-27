@@ -1,0 +1,22 @@
+
+Web:JspScriptletCheck"CReplace this scriptlet using tag libraries and expression language.(œ¤ıÓ8âê¸ß˜1Hš/RMAJORZ
+CODE_SMELL
+}Web:WhiteSpaceAroundCheck";A whitespace is missing after the starting tag at column 3.(ı†8´¦œß˜1H‚/RMINORZ
+CODE_SMELL
+TWeb:WhiteSpaceAroundCheck"Add a space at column 41.(Ô¬¦Hı-RMINORZ
+CODE_SMELL
+`	Web:S1827")Remove this deprecated "align" attribute.(Œª‘£üÿÿÿÿ8âê¸ß˜1H™/RMAJORZ
+CODE_SMELL
+\Web:NonConsecutiveHeadingCheck"Do not skip level H5.(œ¤ıÓ8âê¸ß˜1H›/RMINORZ
+CODE_SMELL
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MH€.RMAJORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.Hü-RBLOCKERZ
+CODE_SMELL
+zWeb:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(ÿ·õ†Hû-RMINORZ
+CODE_SMELL
+aWeb:InternationalizationCheck	")Define this label in the resource bundle.(§ÓŸçHÿ-RMAJORZBUG
+[Web:WhiteSpaceAroundCheck"Add a space at column 72.(ı†8´¦œß˜1Hƒ/RMINORZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHş-RMAJORZBUG
+mWeb:InternationalizationCheck")Define this label in the resource bundle.(Äôôüÿÿÿÿ8úŒ¬İ˜1H‡.RMAJORZBUG

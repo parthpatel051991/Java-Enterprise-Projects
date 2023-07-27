@@ -1,0 +1,37 @@
+package in.ineuron.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.exception.ProductNotFoundException;
+import in.ineuron.model.Product;
+import in.ineuron.repository.IProductRepository;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+
+	@Autowired
+	private IProductRepository repo;
+	
+	
+	
+
+	@Override
+	public List<Product> getAllProduct() {
+		
+		List<Product> list = repo.findAll();
+		list.sort((t1,t2)->t2.getQuantity().compareTo(t2.getQuantity()));
+		
+		return list;
+	}
+	
+	
+	
+	
+	
+
+
+}

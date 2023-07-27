@@ -1,0 +1,17 @@
+
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8‡Œ“á”1HÄRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8„ðýà”1HÅRMAJORZ
+CODE_SMELL
+Š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8 ÞŠá”1HÆRMAJORZBUG
+p	java:S106""9Replace this use of System.out or System.err by a logger.(ÆúŠÊþÿÿÿÿ8‡Œ“á”1HÇRMAJORZ
+CODE_SMELL
+‡
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(º™Ú78¿šžá”1HÈRCRITICALZ
+CODE_SMELL
+Š
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ó‹Œá”1HÏRMAJORZBUG
+p	java:S106'"9Replace this use of System.out or System.err by a logger.(¹úˆÌùÿÿÿÿ8„ðýà”1HÐRMAJORZ
+CODE_SMELL

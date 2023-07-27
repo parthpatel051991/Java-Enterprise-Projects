@@ -1,0 +1,105 @@
+package in.ineuron;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import in.ineuron.model.OrderList;
+import in.ineuron.model.User;
+import in.ineuron.service.OrderServiceMgmtImpl;
+import in.ineuron.service.UserServiceMgmtImpl;
+
+@SpringBootApplication
+public class SpringBoot22DataJpaMySqlApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringBoot22DataJpaMySqlApplication.class, args);
+
+		Scanner sc = new Scanner(System.in);
+		UserServiceMgmtImpl user_service = context.getBean(UserServiceMgmtImpl.class);
+		OrderServiceMgmtImpl service = context.getBean(OrderServiceMgmtImpl.class);
+
+		User user = null;
+
+		String reply = null;
+		do {
+
+			try {
+				System.out.println("Welcome to Product-User Database. Choose the option for your task from the Menu.");
+				System.out.println();
+				System.out.println("Opertation Menu \n" + "1.Check All User details \n" + "2.Insert User data \n"
+						+ "3.Insert Order data \n" + "4.Get Order data by user \n");
+				System.out.println("select your option: ");
+				int option = Integer.parseInt(sc.next());
+
+				System.out
+						.println("===================================================================================");
+
+				switch (option) {
+				case 1:
+					
+					user_service.getAllUsers().forEach(System.out::println);;
+				
+					break;
+				case 2:
+					System.out.print("Enter the User name::");
+					String name = sc.next();
+					user = new User();
+					user.setUsername(name);
+
+					user.setUsername(name);
+
+					System.out.println(user_service.registerUser(user));
+					break;
+				case 3:
+					System.out.print("Enter the item name to order::");
+					String item = sc.next();
+					System.out.print("Enter the item quantity to order::");
+					int quantity = sc.nextInt();
+
+					System.out.print("Enter the user id :");
+					int user_id = sc.nextInt();
+					
+					user=new User();
+					
+					user.setId(user_id);
+
+					OrderList new_order = new OrderList(null, item, quantity, user);
+
+					System.out.println(service.insertOrderDetails(new_order));
+					
+					break;
+				case 4:
+					System.out.print("Enter the User id::");
+					int id = sc.nextInt();
+
+					user.setId(id);
+
+					List<OrderList> ordersByUser = service.getOrdersByUser(user);
+
+					ordersByUser.forEach(System.out::println);
+
+					break;
+				default:
+					System.out.println("choose valid option . Thank you");
+					break;
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			} finally {
+				System.out.println("====================================================");
+				System.out.println("Continue ? Reply Yes to continue or/ to exit enter No ");
+				reply = sc.next();
+				System.out.println("====================================================");
+			}
+
+		} while (reply.equalsIgnoreCase("yes"));
+
+	
+
+	}
+
+}

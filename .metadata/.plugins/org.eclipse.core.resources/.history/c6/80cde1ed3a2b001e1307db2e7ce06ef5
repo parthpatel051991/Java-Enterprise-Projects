@@ -1,0 +1,44 @@
+package in.ineuron.aop;
+
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class TransactionalManagement {
+
+private static final Logger logger = LoggerFactory.getLogger(TransactionalManagement.class);
+
+	@Pointcut(value = "execution(public * in.ineuron.service.UserServiceImpl.registerUser(*))")
+	public void p1() {
+	}
+
+	@Before(value = "p1()")
+	public void beforeTransaction() {
+		logger.trace("registerUser(user) method called");
+	}
+	
+	@After(value = "p1()")
+	public void afterTransaction() {
+		logger.trace("registerUser(user) method execution ended");
+	}
+	
+	@AfterReturning(value = "p1()",returning = "obj")
+	public void commitedTrasaction(String obj) {
+		logger.trace("Transaction commited" +  obj);
+	}
+	
+	
+//	@AfterThrowing(value = "p1()",throwing ="exception")
+//	public void rollbackTrasaction(Exception e) {
+//		logger.error("Transaction rollbacked" + e.getMessage());
+//	}
+}
+

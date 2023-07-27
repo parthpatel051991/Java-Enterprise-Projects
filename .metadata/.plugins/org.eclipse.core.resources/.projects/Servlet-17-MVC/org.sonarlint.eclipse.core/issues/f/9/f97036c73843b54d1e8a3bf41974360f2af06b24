@@ -1,0 +1,24 @@
+
+[	Web:S1827")Remove this deprecated "align" attribute.(òå„ë8ñƒÄá–1HÒRMAJORZ
+CODE_SMELL
+\Web:NonConsecutiveHeadingCheck "Do not skip level H2.(«Ğ‹8ñƒÄá–1HÔRMINORZ
+CODE_SMELL
+ZWeb:InlineStyleCheck
+"Use CSS classes instead.(––›¬üÿÿÿÿ8öá¿ä–1HøRMAJORZ
+CODE_SMELL
+hWeb:InternationalizationCheck")Define this label in the resource bundle.(åÄ­µ8ò«å–1H™RMAJORZBUG
+`	Web:S1827")Remove this deprecated "align" attribute.(Œª‘£üÿÿÿÿ8ò«å–1H˜RMAJORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.HçRBLOCKERZ
+CODE_SMELL
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(¨á¥²8ñƒÄá–1HÑRMINORZ
+CODE_SMELL
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHêRMAJORZ
+CODE_SMELL
+[	Web:S1827")Remove this deprecated "align" attribute.(ÙÅäî8ñƒÄá–1HÓRMAJORZ
+CODE_SMELL
+TWeb:WhiteSpaceAroundCheck"Add a space at column 21.(Ô¬¦HèRMINORZ
+CODE_SMELL
+`Web:WhiteSpaceAroundCheck"Add a space at column 57.(‚–å”úÿÿÿÿ8öá¿ä–1H÷RMINORZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHéRMAJORZBUG

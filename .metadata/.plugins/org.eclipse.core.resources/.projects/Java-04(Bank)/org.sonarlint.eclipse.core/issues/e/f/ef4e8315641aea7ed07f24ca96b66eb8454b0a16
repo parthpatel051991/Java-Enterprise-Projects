@@ -1,0 +1,17 @@
+
+}	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(Ô°Ò¹ûÿÿÿÿ8ÃÃÓ¥’1H²RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Ô‹•¾8•µ©¤’1HlRMAJORZ
+CODE_SMELL
+}	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‰şÏ­úÿÿÿÿ8à¨¥’1HíRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Óºò™ÿÿÿÿÿ8ÌÂ¤’1H‡RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(óÑàÓ8•µ©¤’1HkRMAJORZ
+CODE_SMELL
+d
+java:S1068"-Remove this unused "accountNo" private field.(¢³¥Ãùÿÿÿÿ8•¶„¤’1HARMAJORZ
+CODE_SMELL
+c
+java:S1068"1Remove this unused "accountHolder" private field.(¿¨×ß8¯ğ¾¤’1HRMAJORZ
+CODE_SMELL

@@ -1,0 +1,20 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.ineuron.model.Student;
+import in.ineuron.repo.IStudentRepository;
+
+public class StudentServiceMgmtImpl implements IStudentServiceMgmt {
+
+	@Autowired
+	private IStudentRepository repo;
+	
+	
+	@Override
+	public String registerStudent(Student student) {
+	
+		return null;
+	}
+
+}

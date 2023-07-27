@@ -1,0 +1,50 @@
+package in.ineuron.main;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import in.ineuron.Model.Employee;
+import in.ineuron.util.HibernateUtil;
+
+public class InsertApp {
+
+	public static void main(String[] args) {
+	
+		Session session = null;
+		Transaction transaction = null;
+		boolean flag =false;
+		int id=10;
+		
+		try {
+			session = HibernateUtil.getSession();
+
+			if (session != null) {
+				transaction = session.beginTransaction();
+			}
+
+			if (transaction != null) {
+				Employee employee = new Employee();
+
+				employee.setEmpId(id);
+				employee.setEmpName("Sachin");
+				employee.setEmpSal(50000.00);
+
+				session.persist(employee);
+				flag = true;
+			} 
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			if (flag) {
+				transaction.commit();
+				
+				Employee employee = session.get(Employee.class,id );
+				System.out.println(employee);
+			} 
+			
+			HibernateUtil.closeSession(session);
+			
+		}
+	}
+
+}

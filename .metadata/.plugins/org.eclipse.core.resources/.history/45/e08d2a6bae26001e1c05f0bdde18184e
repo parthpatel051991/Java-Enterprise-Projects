@@ -1,0 +1,72 @@
+package in.ineuron.main;
+
+import java.util.Scanner;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import in.ineuron.model.Employee;
+import in.ineuron.util.HibernateUtil;
+
+public class LoadAndUpdateApp {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+
+		Session session = null;
+		Transaction transaction = null;
+		boolean flag = false;
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter Employee id to be updated ::");
+		int id = scanner.nextInt();
+
+		try {
+			session = HibernateUtil.getSession();
+
+			if (session != null) {
+
+				Employee employee = session.get(Employee.class, id);
+
+				if (employee != null) {
+
+					System.out.print("Enter Employee updated name  ::");
+					String name = scanner.next();
+
+					System.out.print("Enter Employee updated salary ::");
+					double esal = scanner.nextDouble();
+
+					transaction = session.beginTransaction();
+
+					employee.setEmpId(id);
+					employee.setEmpName(name);
+					employee.setEmpSal(esal);
+
+					session.saveOrUpdate(employee);
+
+					flag = true;
+				}
+				else {
+					System.out.println("Employee is not found for given id ::"+id);
+				}
+
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (flag) {
+				transaction.commit();
+
+				Employee employee = session.get(Employee.class, id);
+				System.out.println("Details Updated or Created as Follows ::" + employee);
+
+			}
+
+			HibernateUtil.closeSession();
+			HibernateUtil.closeSessionFactory();
+		}
+
+	}
+}

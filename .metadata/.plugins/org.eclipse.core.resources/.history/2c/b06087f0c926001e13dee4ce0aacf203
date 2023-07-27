@@ -1,0 +1,11 @@
+package in.ineuron.service;
+
+import javax.persistence.criteria.Order;
+
+import in.ineuron.model.OrderList;
+import in.ineuron.model.User;
+
+public interface IOrderServiceMgmt {
+
+	public String createOrder(OrderList order);
+}

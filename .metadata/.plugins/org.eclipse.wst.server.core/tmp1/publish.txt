@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Mon Jul 24 23:54:04 CDT 2023
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\cadet\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\9.0.78\\tomcat-embed-el-9.0.78.jar=WEB-INF/lib/tomcat-embed-el-9.0.78.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\cadet\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-jasper\\9.0.78\\tomcat-embed-jasper-9.0.78.jar=WEB-INF/lib/tomcat-embed-jasper-9.0.78.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\cadet\\.m2\\repository\\org\\springframework\\spring-web\\5.3.29\\spring-web-5.3.29.jar=WEB-INF/lib/spring-web-5.3.29.jar

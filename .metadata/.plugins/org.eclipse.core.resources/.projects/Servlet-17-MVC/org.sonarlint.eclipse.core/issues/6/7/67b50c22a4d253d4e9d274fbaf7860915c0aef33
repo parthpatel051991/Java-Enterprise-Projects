@@ -1,0 +1,10 @@
+
+ƒ	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ´‡Í8¨›žá–1H¤RMINORZ
+CODE_SMELL
+}
+java:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ãÜ†¿8¨›žá–1HÿRBLOCKERZBUG
+j
+java:S2589Z"7Remove this expression which always evaluates to "true"(¥á²£8¨›žá–1H€RMAJORZ
+CODE_SMELL
+t
+java:S2259Y"HA "NullPointerException" could be thrown; "connection" is nullable here.(ãÜ†¿8‹ÆÞÞ–1H”RMAJORZBUG

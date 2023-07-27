@@ -1,0 +1,73 @@
+package in.ineuron;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.ineuron.model.OrderList;
+import in.ineuron.model.User;
+import in.ineuron.service.OrderServiceMgmtImpl;
+import in.ineuron.service.UserServiceMgmtImpl;
+
+@SpringBootApplication
+public class SpringBoot22DataJpaMySqlApplication {
+
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringBoot22DataJpaMySqlApplication.class, args);
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the User id::");
+		int id = sc.nextInt();
+		UserServiceMgmtImpl user_service = context.getBean(UserServiceMgmtImpl.class);
+//		OrderServiceMgmtImpl order_service = context.getBean(OrderServiceMgmtImpl.class);
+//		
+//		
+//		System.out.println("Do you want to order ? Yes or No");
+//		
+//		String decision = sc.next();
+//		
+//		List<OrderList> list = new ArrayList<>();
+		User user = new User();
+		
+		user.setUsername("Parth");
+		
+//		user.setId(id);
+		String result = user_service.registerUser(user);
+		System.out.println(result);
+//		
+//		if (decision.equalsIgnoreCase("yes")) {
+//			
+//			
+//			System.out.print("Enter the item name::");
+//			String item = sc.next();
+//			System.out.print("Enter the quantity::");
+//			Integer quantity= sc.nextInt();
+//			
+//			
+//			OrderList orderList = new OrderList(null, item, quantity, user);
+//			list.add(orderList);
+//			String messege = order_service.createOrder(orderList);
+//			System.out.println(messege);
+//		} 
+//		
+//		user.setOrder_list(list);
+		
+		
+		OrderServiceMgmtImpl service = context.getBean(OrderServiceMgmtImpl.class);
+		
+		List<OrderList> ordersByUser = service.getOrdersByUser(user);
+		
+		ordersByUser.forEach(System.out::println);
+
+		
+		
+	
+		
+	}
+
+}

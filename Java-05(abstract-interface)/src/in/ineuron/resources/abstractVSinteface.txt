@@ -1,0 +1,31 @@
+Key Points:
+
+1.Definition:
+
+Abstract Class: An abstract class is a class that cannot be instantiated and may contain abstract methods, regular methods, instance variables, and constructors.
+Interface: An interface is a reference type that can contain abstract methods, default methods, static methods, constant variables, and nested types.
+
+2.Instantiation:
+
+Abstract Class: An abstract class cannot be directly instantiated using the new keyword. It serves as a base for subclasses and can be extended to create objects of its subclasses.
+Interface: An interface cannot be directly instantiated using the new keyword. It is implemented by classes that provide the implementation of its methods.
+
+3.Multiple Inheritance:
+
+Abstract Class: Java does not support multiple inheritance for classes. An abstract class can extend only one class but can implement multiple interfaces.
+Interface: Java supports multiple inheritance for interfaces. A class can implement multiple interfaces.
+
+4.Abstract Methods:
+
+Abstract Class: An abstract class can have abstract methods (methods without a body) that must be implemented by its concrete subclasses.
+Interface: All methods in an interface are implicitly abstract, meaning they don't have a body. Classes implementing an interface must provide the implementation for all its methods.
+
+5.Method Implementation:
+
+Abstract Class: An abstract class can provide both abstract and non-abstract methods. Concrete subclasses can inherit and use the non-abstract methods directly.
+Interface: An interface can only declare method signatures, and the implementing classes must provide the implementation for all the declared methods.
+
+6.Variables:
+
+Abstract Class: An abstract class can have instance variables, static variables, and constant variables.
+Interface: An interface can only have constant variables (implicitly static and final) that define constants shared by implementing classes.

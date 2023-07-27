@@ -1,0 +1,11 @@
+
+b
+java:S1128"6Remove this unused import 'org.hibernate.Transaction'.(ÏÃË≥Hä RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(“ôƒù8£„Øâó1H¢ RMAJORZ
+CODE_SMELL
+p
+java:S2147""DCombine this catch with the one at line 32, which has the same body.(çî˝æHÖ RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(º°®ÚHù RMAJORZ
+CODE_SMELL

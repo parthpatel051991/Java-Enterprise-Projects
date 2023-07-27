@@ -1,0 +1,15 @@
+
+
+
+server.port=8888
+
+spring.application.name=CLIENT-CONFIG
+
+spring.config.import=optional:configserver:
+
+spring.profiles.active=prod
+
+
+
+
+

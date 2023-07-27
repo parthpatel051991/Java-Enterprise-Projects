@@ -1,0 +1,30 @@
+
+TWeb:WhiteSpaceAroundCheck"Add a space at column 41.(Ô¬¦HRMINORZ
+CODE_SMELL
+U	Web:S5256"%Add "<th>" headers to this "<table>".(¿‰˜ÿÿÿÿÿ8¨ò¤Õ–1HºRMAJORZBUG
+Web:JspScriptletCheck"CReplace this scriptlet using tag libraries and expression language.(ÎíüÜ8û“‰Õ–1H´RMAJORZ
+CODE_SMELL
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHŸRMAJORZ
+CODE_SMELL
+cWeb:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿ8¨ò¤Õ–1H¹RMINORZBUG
+aWeb:NonConsecutiveHeadingCheck"Do not skip level H2.(µœÎúÿÿÿÿ8¨ò¤Õ–1H¿RMINORZ
+CODE_SMELL
+‰Web:InputWithoutLabelCheck&"HAdd an "id" attribute to this input field and associate it with a label.(«æÑÎşÿÿÿÿ8¨ò¤Õ–1H¾RMAJORZBUG
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(ÿ·õ†8µ‡ƒÕ–1H¦RMINORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.HœRBLOCKERZ
+CODE_SMELL
+}Web:WhiteSpaceAroundCheck";A whitespace is missing after the starting tag at column 5.(ÎíüÜ8û“‰Õ–1H³RMINORZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHRMAJORZBUG
+mWeb:InternationalizationCheck!")Define this label in the resource bundle.(•Ã‡¼şÿÿÿÿ8¨ò¤Õ–1H¼RMAJORZBUG
+„Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(´Í·8¨ò¤Õ–1H»RMAJORZBUG
+„Web:InputWithoutLabelCheck""HAdd an "id" attribute to this input field and associate it with a label.(Áûáë8¨ò¤Õ–1H½RMAJORZBUG
+[	Web:S1827")Remove this deprecated "align" attribute.(òå„ë8Ú„’Õ–1H·RMAJORZ
+CODE_SMELL
+[	Web:S1827")Remove this deprecated "align" attribute.(ÙÅäî8ÇûÕ–1H¶RMAJORZ
+CODE_SMELL
+[Web:WhiteSpaceAroundCheck"Add a space at column 50.(ÎíüÜ8û“‰Õ–1H²RMINORZ
+CODE_SMELL
+\Web:NonConsecutiveHeadingCheck"Do not skip level H4.(ØË‡¬8ïğ”Õ–1H¸RMINORZ
+CODE_SMELL

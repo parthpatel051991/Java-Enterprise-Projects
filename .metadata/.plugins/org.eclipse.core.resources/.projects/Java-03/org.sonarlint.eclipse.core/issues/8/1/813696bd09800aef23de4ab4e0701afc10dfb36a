@@ -1,0 +1,9 @@
+
+o	java:S106"9Replace this use of System.out or System.err by a logger.(èþ›áúÿÿÿÿ8„‡ã£’1H8RMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(®à­¦ÿÿÿÿÿ8„‡ã£’1H9RMAJORZ
+CODE_SMELL
+|	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(±öÃÔøÿÿÿÿ8„‡ã£’1H7RMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8„‡ã£’1H:RMAJORZ
+CODE_SMELL

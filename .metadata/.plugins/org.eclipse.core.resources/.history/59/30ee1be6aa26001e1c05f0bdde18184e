@@ -1,0 +1,22 @@
+package in.ineuron.main;
+
+import org.hibernate.Session;
+
+import in.ineuron.model.Employee;
+import in.ineuron.util.HibernateUtil;
+
+public class UpdateApp {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Session session = HibernateUtil.getSession();
+		
+		Employee employee = new Employee();
+		
+		employee.setEmpId(20);
+		
+		session.saveOrUpdate("eid", employee);
+	}
+}

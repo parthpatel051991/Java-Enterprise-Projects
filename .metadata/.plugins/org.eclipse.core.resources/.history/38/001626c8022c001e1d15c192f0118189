@@ -1,0 +1,47 @@
+package in.ineuron.restcontroller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import in.ineuron.model.Product;
+import in.ineuron.service.IProductService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
+@RestController
+@RequestMapping("/api/product/")
+public class ProductController {
+
+	@Autowired
+	private IProductService service;
+
+	
+
+	
+	@GetMapping("/find/{id}")
+	@CircuitBreaker(name = "productByID",fallbackMethod = "fallbackGetProductList")
+	public ResponseEntity<Product> fetchProductByID(@PathVariable Integer id) {
+		
+		Product product = service.getProductById(id);
+		
+		return new ResponseEntity<>(product, HttpStatus.OK);
+		
+	}
+
+	
+	public ResponseEntity<Product> fallbackGetProductList() {
+		
+		
+		
+		return new ResponseEntity<Product>(Product.builder().pid(0).name("dummy product. Fallback metho executed").build(),HttpStatus.BAD_REQUEST);
+	}
+	
+	
+	
+}

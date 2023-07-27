@@ -1,0 +1,29 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.OrderList;
+import in.ineuron.repo.IOrderRepository;
+
+@Service("order-service")
+public class OrderServiceMgmtImpl implements IOrderServiceMgmt {
+
+	@Autowired
+	private IOrderRepository repo;
+	
+	
+	@Override
+	public String createOrder(OrderList order) {
+	
+		OrderList registredOrder=null;
+		
+		if (order!=null) {
+			registredOrder = repo.save(order);			
+		}
+		
+		
+		return (registredOrder!=null)? "User registred succesfully with id number:: "+registredOrder:"User registration is failed";
+	}
+
+}

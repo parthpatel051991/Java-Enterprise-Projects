@@ -1,0 +1,6 @@
+
+|
+java:S1192"HDefine a constant instead of duplicating this literal "failure" 3 times.(Β²κώÿÿÿÿH€RCRITICALZ
+CODE_SMELL
+s
+java:S2259,"IA "NullPointerException" could be thrown; "transaction" is nullable here.(μ‚—τϊÿÿÿÿH„RMAJORZBUG

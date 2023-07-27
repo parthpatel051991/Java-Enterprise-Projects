@@ -1,0 +1,49 @@
+package in.ineuron.controller;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import in.ineuron.model.User;
+import in.ineuron.service.IUserService;
+
+@Controller
+public class RegisterController {
+
+	@Autowired
+	private IUserService service;
+	
+	@GetMapping("/reg")
+	public String showRegistrationForm() {
+		
+		return "registration";
+	}
+	
+	
+	
+	
+	@PostMapping("/register")
+	public String registerUser(Map<String, Object> model,@RequestParam(required = true) String email,@RequestParam String password) {
+		
+		User user = new User();
+		user.setEmail(email);
+		user.setPassword(password);
+		
+		Integer rowsAffected = service.registerUser(user);
+		System.out.println(rowsAffected);
+		
+		if(rowsAffected==0) {
+			model.put("msg", "User existed");
+			return "registration";
+		}else {
+			model.put("msg", "User Registered Succesfully");
+			return "login";
+			
+		}
+	
+	}
+}

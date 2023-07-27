@@ -1,0 +1,36 @@
+
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHÌRMAJORZ
+CODE_SMELL
+Web:JspScriptletCheck"CReplace this scriptlet using tag libraries and expression language.(ÎíüÜ8ô¨èÕ–1HØRMAJORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.HÉRBLOCKERZ
+CODE_SMELL
+†Web:JspScriptletCheck'"CReplace this scriptlet using tag libraries and expression language.(Òø°ùÿÿÿÿ8†ÆˆÖ–1HèRMAJORZ
+CODE_SMELL
+\Web:NonConsecutiveHeadingCheck"Do not skip level H4.(ØË‡¬8ô¨èÕ–1HÚRMINORZ
+CODE_SMELL
+Web:JspScriptletCheck#"CReplace this scriptlet using tag libraries and expression language.(œ´ÿ8†ÆˆÖ–1HçRMAJORZ
+CODE_SMELL
+TWeb:WhiteSpaceAroundCheck"Add a space at column 41.(Ô¬¦HÊRMINORZ
+CODE_SMELL
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(ÿ·õ†8†ÆˆÖ–1HŞRMINORZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHËRMAJORZBUG
+}Web:WhiteSpaceAroundCheck";A whitespace is missing after the starting tag at column 6.(ÎíüÜ8ô¨èÕ–1H×RMINORZ
+CODE_SMELL
+mWeb:InternationalizationCheck")Define this label in the resource bundle.(õ¿Ğ…ÿÿÿÿÿ8†ÆˆÖ–1HæRMAJORZBUG
+mWeb:InternationalizationCheck"")Define this label in the resource bundle.(Ïè•×ıÿÿÿÿ8…åŠÖ–1HîRMAJORZBUG
+[	Web:S1827")Remove this deprecated "align" attribute.(òå„ë8ô¨èÕ–1HÙRMAJORZ
+CODE_SMELL
+[Web:WhiteSpaceAroundCheck"Add a space at column 51.(ÎíüÜ8ô¨èÕ–1HÖRMINORZ
+CODE_SMELL
+hWeb:InternationalizationCheck&")Define this label in the resource bundle.(…‰œÿ8…åŠÖ–1HïRMAJORZBUG
+mWeb:InternationalizationCheck")Define this label in the resource bundle.(Ûéú»ÿÿÿÿÿ8†ÆˆÖ–1HåRMAJORZBUG
+[	Web:S1827")Remove this deprecated "align" attribute.(ÙÅäî8ô¨èÕ–1HÕRMAJORZ
+CODE_SMELL
+€Web:JspScriptletCheck+"CReplace this scriptlet using tag libraries and expression language.(ßåÊ#8†ÆˆÖ–1HéRMAJORZ
+CODE_SMELL
+^Web:TableWithoutCaptionCheck" Add a description to this table.(Ã˜€Ê8†ÆˆÖ–1HäRMINORZBUG
+†Web:JspScriptletCheck/"CReplace this scriptlet using tag libraries and expression language.(ÜÙê†ÿÿÿÿÿ8†ÆˆÖ–1HêRMAJORZ
+CODE_SMELL
+mWeb:InternationalizationCheck.")Define this label in the resource bundle.(•Ã‡¼şÿÿÿÿ8…åŠÖ–1HğRMAJORZBUG

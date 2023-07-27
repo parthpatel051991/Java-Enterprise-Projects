@@ -1,0 +1,6 @@
+
+p	java:S106-"9Replace this use of System.out or System.err by a logger.(ÄÕ‰Æşÿÿÿÿ8±Ş˜1Hâ.RMAJORZ
+CODE_SMELL
+ˆ
+java:S1192"MDefine a constant instead of duplicating this literal "registration" 3 times.(Š“‘øÿÿÿÿ8“ˆÛŞ˜1HÑ.RCRITICALZ
+CODE_SMELL

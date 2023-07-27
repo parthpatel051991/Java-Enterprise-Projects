@@ -1,0 +1,48 @@
+package in.ineuron.main;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import in.ineuron.model.Employee;
+import in.ineuron.util.HibernateUtil;
+
+public class UpdateApp {
+
+	public static void main(String[] args) {
+		
+		Session session =null;
+		Transaction transaction=null;
+		boolean flag=false;
+		
+		try {
+			session = HibernateUtil.getSession();
+
+			if (session!=null) {
+				transaction = session.beginTransaction();
+				Employee employee = new Employee();
+				employee.setEmpId(20);
+				employee.setEmpName("Priyank");
+				employee.setEmpSal(52000.00);
+			
+				session.saveOrUpdate(employee);
+				
+				flag=true;
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			if (flag) {
+				transaction.commit();
+				
+				Employee employee = session.get(Employee.class, 20);
+				System.out.println("Details Updated or Created as Follows ::"+employee);
+				
+			}
+			
+			HibernateUtil.closeSession();
+			HibernateUtil.closeSessionFactory();
+		}
+		
+	}
+}

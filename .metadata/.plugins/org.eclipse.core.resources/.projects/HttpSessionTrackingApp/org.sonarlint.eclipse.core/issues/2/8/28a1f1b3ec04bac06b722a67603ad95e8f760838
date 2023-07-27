@@ -1,0 +1,27 @@
+
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(±õ‡ºûÿÿÿÿHçRMINORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.HèRBLOCKERZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHéRMAJORZBUG
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MHêRMAJORZ
+CODE_SMELL
+V	Web:S1827"+Remove this deprecated "bgcolor" attribute.(Íµ£¯HëRMAJORZ
+CODE_SMELL
+SWeb:InlineStyleCheck"Use CSS classes instead.(±õ‡ºûÿÿÿÿHìRMAJORZ
+CODE_SMELL
+eWeb:DoubleQuotesCheck")Use double quotes instead of single ones.(±õ‡ºûÿÿÿÿHíRMINORZ
+CODE_SMELL
+bWeb:UnsupportedTagsInHtml5Check
+"(Remove this deprecated "center" element.(¡á€ÒHîRMAJORZBUG
+\Web:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿHïRMINORZBUG
+aWeb:InternationalizationCheck")Define this label in the resource bundle.(¦ÂÇ†HğRMAJORZBUG
+`Web:DoubleQuotesCheck")Use double quotes instead of single ones.(¯–‚ÔHñRMINORZ
+CODE_SMELL
+}Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(¯–‚ÔHòRMAJORZBUG
+fWeb:InternationalizationCheck")Define this label in the resource bundle.(ûÔ¼úÿÿÿÿHóRMAJORZBUG
+eWeb:DoubleQuotesCheck")Use double quotes instead of single ones.(Ñ·ŒıÿÿÿÿHôRMINORZ
+CODE_SMELL
+‚Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(Ñ·ŒıÿÿÿÿHõRMAJORZBUG
+eWeb:DoubleQuotesCheck")Use double quotes instead of single ones.(½‘üÁüÿÿÿÿHöRMINORZ
+CODE_SMELL

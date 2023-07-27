@@ -1,0 +1,22 @@
+
+„
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(†ÙÁÿ8ï­Ø·–1H RMAJORZBUG
+k
+java:S1161"":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿH•RMAJORZ
+CODE_SMELL
+“
+java:S1989%"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿH”RMINORZVULNERABILITY
+|
+java:S1192H"FDefine a constant instead of duplicating this literal "</td>" 4 times.(×£õ¡8ºä¼–1HÒRCRITICALZ
+CODE_SMELL
+‰
+java:S1450"VRemove the "service" field and declare it as a local variable in the relevant methods.(†ÙÁÿ8³Á»–1H¾RMINORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8“ø¯¼–1H¢RMINORZ
+CODE_SMELL
+k	java:S106,"9Replace this use of System.out or System.err by a logger.(’¸»±8Ç‘»–1H°RMAJORZ
+CODE_SMELL
+f
+java:S1161":Add the "@Override" annotation above this method signature(÷¤‹úHèRMAJORZ
+CODE_SMELL

@@ -1,0 +1,87 @@
+package in.ineuron.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.exception.ProductNotFoundException;
+import in.ineuron.model.Product;
+import in.ineuron.repository.IProductRepository;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+
+	@Autowired
+	private IProductRepository repo;
+
+	@Override
+	public String saveProduct(Product product) {
+		
+		Product existed_Product = repo.findProductByName(product.getName());
+		
+		if (existed_Product==null) {
+			Integer pid = repo.save(product).getPid();
+			
+			return "Product is saved with id no ::"+pid;
+		}else {
+			throw new RuntimeException("Product is Already available in database . Please Update it");
+		}
+		
+	}
+
+	@Override
+	public String updateProduct(Product product) {
+		
+	
+		Optional<Product> optional = repo.findById(product.getPid());
+		
+		if (optional.isPresent()) {
+			
+			if(optional.get().getName().equals(product.getName())) {
+				
+				repo.save(product);
+				
+				return "Product with the id ::"+product.getPid()+" updated";
+			}else {
+				
+				throw new RuntimeException("Product name conflict. its wrong product name  ");
+			}
+			
+		}else {
+			throw new ProductNotFoundException("Product is not found for given id :: "+product.getPid());
+		}
+	
+	}
+
+	@Override
+	public String deleteProductById(Integer id) {
+		Optional<Product> optional = repo.findById(id);
+		
+		if (optional.isPresent()) {
+			repo.delete(optional.get());
+			return "Tourist Record is deleted for given id :: "+id;
+		}else {
+			throw new ProductNotFoundException("Product is not found for given id :: "+id);
+		}
+	}
+
+	@Override
+	public Product getProductById(Integer id) {
+	
+		return repo.findById(id).orElseThrow(()->new ProductNotFoundException("Product not found for given id "+id));
+	}
+
+	@Override
+	public List<Product> getAllProduct() {
+		
+		List<Product> list = (List<Product>) repo.findAll();
+		list.sort((t1,t2)->t2.getQuantity().compareTo(t2.getQuantity()));
+		
+		return list;
+	}
+	
+
+
+}

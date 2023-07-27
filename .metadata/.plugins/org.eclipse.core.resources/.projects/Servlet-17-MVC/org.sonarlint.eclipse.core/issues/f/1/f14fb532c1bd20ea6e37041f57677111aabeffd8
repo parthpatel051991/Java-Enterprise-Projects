@@ -1,0 +1,36 @@
+
+†Web:JspScriptletCheck"CReplace this scriptlet using tag libraries and expression language.(•¯÷ºùÿÿÿÿ8Şå­å–1H¤RMAJORZ
+CODE_SMELL
+[Web:WhiteSpaceAroundCheck"Add a space at column 38.(Ÿ‰¨±8öçèã–1H‹RMINORZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHƒRMAJORZBUG
+dWeb:UnclosedTagCheck".The tag "h3" has no corresponding closing tag.(¨çñÄ8Š¨ä–1HìRMINORZBUG
+}Web:WhiteSpaceAroundCheck";A whitespace is missing after the starting tag at column 3.(ÕÄ×‡8æÆéã–1HRMINORZ
+CODE_SMELL
+hWeb:InternationalizationCheck")Define this label in the resource bundle.(åÄ­µ8Şå­å–1H¢RMAJORZBUG
+[Web:WhiteSpaceAroundCheck"Add a space at column 31.(ÕÄ×‡8æÆéã–1HRMINORZ
+CODE_SMELL
+†Web:JspScriptletCheck$"CReplace this scriptlet using tag libraries and expression language.(¶´öŞøÿÿÿÿ8Şå­å–1H¦RMAJORZ
+CODE_SMELL
+}Web:WhiteSpaceAroundCheck";A whitespace is missing after the starting tag at column 3.(Ÿ‰¨±8öçèã–1HŒRMINORZ
+CODE_SMELL
+`	Web:S1827")Remove this deprecated "align" attribute.(Œª‘£üÿÿÿÿ8Şå­å–1H¡RMAJORZ
+CODE_SMELL
+Web:JspScriptletCheck&"CReplace this scriptlet using tag libraries and expression language.(ÓãÒŸ8‡Õçã–1H„RMAJORZ
+CODE_SMELL
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MH„RMAJORZ
+CODE_SMELL
+QWeb:HeaderCheck"&Add or update the header of this file.HRBLOCKERZ
+CODE_SMELL
+ZWeb:InlineStyleCheck"Use CSS classes instead.(¹½âÚøÿÿÿÿ8›¼ä–1HöRMAJORZ
+CODE_SMELL
+€Web:JspScriptletCheck"CReplace this scriptlet using tag libraries and expression language.(‰´·8Şå­å–1H£RMAJORZ
+CODE_SMELL
+Web:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(¨á¥²8Ì¨¦â–1HÔRMINORZ
+CODE_SMELL
+†Web:JspScriptletCheck!"CReplace this scriptlet using tag libraries and expression language.(«ÁØıÿÿÿÿ8Şå­å–1H¥RMAJORZ
+CODE_SMELL
+[Web:WhiteSpaceAroundCheck"Add a space at column 21.(Ô¬¦8Şå­å–1H RMINORZ
+CODE_SMELL
+Web:JspScriptletCheck"CReplace this scriptlet using tag libraries and expression language.(ÓãÒŸ8€»—ä–1H×RMAJORZ
+CODE_SMELL

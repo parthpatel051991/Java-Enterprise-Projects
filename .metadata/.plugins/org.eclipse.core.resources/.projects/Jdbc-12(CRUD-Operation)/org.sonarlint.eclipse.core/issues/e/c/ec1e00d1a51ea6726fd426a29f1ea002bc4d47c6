@@ -1,0 +1,19 @@
+
+k
+java:S1118":Add a private constructor to hide the implicit public one.(æ¦ù°şÿÿÿÿHäRMAJORZ
+CODE_SMELL
+d	java:S1069"9Replace this use of System.out or System.err by a logger.(Úà­ãHíRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¶Àˆ×üÿÿÿÿHåRMAJORZ
+CODE_SMELL
+i	java:S106 "9Replace this use of System.out or System.err by a logger.(ü´î‹üÿÿÿÿHèRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Üë¼¤HæRMAJORZ
+CODE_SMELL
+p
+java:S2147C"DCombine this catch with the one at line 65, which has the same body.(”ı¾HéRMINORZ
+CODE_SMELL
+d	java:S106<"9Replace this use of System.out or System.err by a logger.(ŒâÙµHîRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ºÈçÇHçRMAJORZ
+CODE_SMELL

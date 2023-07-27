@@ -1,0 +1,18 @@
+
+p	java:S106D"9Replace this use of System.out or System.err by a logger.(‚Ê†¦úÿÿÿÿ8‚Ú ï”1H RMAJORZ
+CODE_SMELL
+k	java:S106K"9Replace this use of System.out or System.err by a logger.(Ç´†š8‚Ú ï”1H¡RMAJORZ
+CODE_SMELL
+Š
+java:S2142 "^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8âøŽî”1H¢RMAJORZBUG
+Š
+java:S2142<"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8‚Ú ï”1H£RMAJORZBUG
+k	java:S106("9Replace this use of System.out or System.err by a logger.(ŒÓ†ã8ìª’í”1H¤RMAJORZ
+CODE_SMELL
+p	java:S106:"9Replace this use of System.out or System.err by a logger.(¾×„×ûÿÿÿÿ8Àì“î”1H¥RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(½ï„ 8ß°«í”1H¦RMAJORZ
+CODE_SMELL
+\
+java:S2140&")Use "java.util.Random.nextInt()" instead.(ê¯æì8‚Ú ï”1H§RMINORZ
+CODE_SMELL

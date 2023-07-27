@@ -1,0 +1,21 @@
+package in.ineuron.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table
+public class Student {
+
+	private int sid;
+	private String sname;
+	private int sage;
+	private String saddress;
+}

@@ -1,0 +1,10 @@
+
+h
+java:S1172"0Remove this unused method parameter "throwable".(ÿÕçæÿÿÿÿÿ8ûÉÄ¢™1H¸HRMAJORZ
+CODE_SMELL
+x	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(çŞÄ8ûÉÄ¢™1H·HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(çŸÄìüÿÿÿÿ8ºÖÍ¢™1HÑHRMAJORZ
+CODE_SMELL
+h
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(Ñ«šÓıÿÿÿÿ8÷áÉ¢™1HËHRMAJORZBUG

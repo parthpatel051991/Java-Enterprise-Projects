@@ -1,0 +1,9 @@
+package in.ineuron.service;
+
+import in.ineuron.model.Student;
+import in.ineuron.model.User;
+
+public interface IUserServiceMgmt {
+
+	public String registerStudent(User user);
+}

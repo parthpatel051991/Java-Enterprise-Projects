@@ -1,0 +1,40 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.Product;
+import in.ineuron.repository.IProductRepository;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+
+	@Autowired
+	private IProductRepository repo;
+
+	 @CircuitBreaker(name = "productByID", fallbackMethod = "fallbackGetProductById")
+	    public Product getProductById(Long id) {
+	        // Simulate a service call to retrieve product by ID
+	        if (Math.random() < 0.5) {
+	            throw new RuntimeException("Product Service Unavailable");
+	        }
+	        // In a real application, fetch product from database or external API
+	        return new Product(1, "Sample Product", 99);
+	    }
+
+	    // Fallback method to be called when the circuit is open or any exception occurs
+	    public Product fallbackGetProductById(Integer id, Throwable throwable) {
+	        // You can implement custom fallback behavior here
+	        return new Product(id, "Fallback Product", 0);
+	    }
+	
+	
+	
+	
+	
+
+
+}

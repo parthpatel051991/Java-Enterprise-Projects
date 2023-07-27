@@ -1,0 +1,17 @@
+
+TWeb:WhiteSpaceAroundCheck"Add a space at column 41.(Ô¬¦H²,RMINORZ
+CODE_SMELL
+N	Web:S5256"%Add "<th>" headers to this "<table>".(¿‰˜ÿÿÿÿÿH­,RMAJORZBUG
+QWeb:HeaderCheck"&Add or update the header of this file.H©,RBLOCKERZ
+CODE_SMELL
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH±,RMAJORZBUG
+\Web:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿH°,RMINORZBUG
+mWeb:PageWithoutFaviconCheck"1Add a 'favicon' declaration in this 'header' tag.(Õ¶¯MH³,RMAJORZ
+CODE_SMELL
+aWeb:InternationalizationCheck")Define this label in the resource bundle.(ˆ³˜©H«,RMAJORZBUG
+aWeb:InternationalizationCheck")Define this label in the resource bundle.(§ÓŸçH¯,RMAJORZBUG
+‚Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(Ÿá¥ÈùÿÿÿÿH¬,RMAJORZBUG
+}Web:InputWithoutLabelCheck"HAdd an "id" attribute to this input field and associate it with a label.(ÁûáëH¨,RMAJORZBUG
+fWeb:InternationalizationCheck")Define this label in the resource bundle.(•Ã‡¼şÿÿÿÿHª,RMAJORZBUG
+zWeb:IllegalTabCheck"EReplace all tab characters in this file by sequences of white-spaces.(ÿ·õ†H®,RMINORZ
+CODE_SMELL

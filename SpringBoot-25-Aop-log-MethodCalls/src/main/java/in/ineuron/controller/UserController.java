@@ -1,0 +1,41 @@
+package in.ineuron.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import in.ineuron.model.User;
+import in.ineuron.service.IUserService;
+
+@RestController
+@RequestMapping("/api/user")
+public class UserController {
+
+	
+	@Autowired
+	private IUserService service;
+	
+	@PostMapping("/reg")
+	public ResponseEntity<String> saveUser(@RequestBody User user){
+		
+		Integer user_id = service.registerUser(user);
+		
+		if (user_id==0) {
+			String body="User creation is failed .Account with this email already existed";
+			return new ResponseEntity<>(body, HttpStatus.CONFLICT);
+		}else {
+			String body="User created with id no ::"+user_id;
+			
+			return new ResponseEntity<>(body, HttpStatus.CREATED);
+		}
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+
+\
+java:S1481	"*Remove this unused "child" local variable.(›ıÁî8¤´Ş¢’1H"RMINORZ
+CODE_SMELL
+k
+java:S1854	"9Remove this useless assignment to local variable "child".(›ıÁî8¤´Ş¢’1H!RMAJORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄìÎıÿÿÿÿHRMINORZ
+CODE_SMELL

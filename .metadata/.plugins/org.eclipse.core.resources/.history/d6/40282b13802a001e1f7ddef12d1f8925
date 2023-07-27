@@ -1,0 +1,11 @@
+package in.ineuron.service;
+
+import in.ineuron.model.User;
+
+public interface IUserService {
+	
+	
+	public String registerUser(User user);
+
+	public Boolean findUser(User user);
+}

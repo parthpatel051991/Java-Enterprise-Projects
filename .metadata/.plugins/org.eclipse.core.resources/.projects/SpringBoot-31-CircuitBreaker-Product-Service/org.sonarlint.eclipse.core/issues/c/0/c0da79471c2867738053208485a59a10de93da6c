@@ -1,0 +1,15 @@
+
+}	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(èıÍÿÿÿÿÿ8¬û˜1H×ERMAJORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¯ÅÌ8¬û˜1HØERMINORZ
+CODE_SMELL
+}	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(šˆÈûÿÿÿÿ8ÀÉş˜1HÙERMAJORZ
+CODE_SMELL
+}	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(·¡ ±øÿÿÿÿ8‹€áŸ™1HÚERMAJORZ
+CODE_SMELL
+x	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(êÀªÔ8‹€áŸ™1HÛERMAJORZ
+CODE_SMELL
+}	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(üÏˆñúÿÿÿÿ8‹€áŸ™1HÜERMAJORZ
+CODE_SMELL
+}	java:S112~"FDefine and throw a dedicated exception instead of using a generic one.(ãƒƒüÿÿÿÿ8‹€áŸ™1HİERMAJORZ
+CODE_SMELL

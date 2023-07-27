@@ -1,0 +1,12 @@
+
+w
+java:S2147+"DCombine this catch with the one at line 41, which has the same body.(”ı¾8Ãº®„•1HÜRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(øŒõ•ÿÿÿÿÿ8Ãº®„•1HáRMAJORZ
+CODE_SMELL
+p	java:S106$"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ìœß„•1HƒRMAJORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ãº®„•1HãRMAJORZ
+CODE_SMELL
+k	java:S106#"9Replace this use of System.out or System.err by a logger.(‚ä¼í8Ãº®„•1HäRMAJORZ
+CODE_SMELL
